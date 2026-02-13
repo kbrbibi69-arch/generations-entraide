@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-cream text-anthracite font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold text-secondary;
+  }
+}
+
+.glass-nav {
+  @apply bg-white/70 backdrop-blur-xl border-b border-white/20 shadow-sm;
+}
+
+.glass-card {
+  @apply bg-white/60 backdrop-blur-lg border border-white/40 shadow-xl;
+}
+
+.btn-gradient {
+  @apply bg-gradient-to-r from-orange-400 to-yellow-500 text-white shadow-lg transition-all duration-300 hover:shadow-orange-400/50 hover:scale-105;
+}
+
+.btn-glass {
+  @apply bg-white/10 backdrop-blur-md border border-white/30 text-white shadow-lg transition-all duration-300 hover:bg-white/20 hover:scale-105;
+}

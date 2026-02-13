@@ -1,0 +1,36 @@
+--- Checking Token Identity ---
+Authenticated as: kbrbibi69-arch
+--- Checking Repository ---
+Repo exists.
+ERROR: API ERROR [GET /repos/kbrbibi69-arch/generations-entraide/branches/main]: 404 - {"message":"Branch not found","documentation_url":"https://docs.github.com/rest/branches/branches#get-a-branch","status":"404"}
+Main branch does not exist. Repo might be empty.
+--- Initializing Empty Repository ---
+README.md created. Repo is no longer empty.
+Found 43 files to upload.
+--- Creating Blobs ---
+Blob created: DESIGN.md
+Blob created: index.html
+Blob created: netlify.toml
+Blob created: package.json
+Blob created: postcss.config.js
+Blob created: public/assets/img/about-collage.jpg
+Blob created: public/assets/img/action-collecte.jpg
+Blob created: public/assets/img/action-distribution.jpg
+Blob created: public/assets/img/action-foyer-real.jpg
+Blob created: public/assets/img/action-foyer.jpg
+Blob created: public/assets/img/action-maraude-1.jpg
+Blob created: public/assets/img/action-maraude-2.jpg
+Blob created: public/assets/img/action-maraude.jpg
+Blob created: public/assets/img/action-ramadan-1.jpg
+Blob created: public/assets/img/action-ramadan-2.jpg
+Blob created: public/assets/img/action-ramadan.jpg
+Blob created: public/assets/img/action-social.jpg
+Blob created: public/assets/img/hero-bg.jpg
+Blob created: public/assets/img/logo.png
+Blob created: public/assets/img/partner-1.jpg
+Blob created: public/assets/img/partner-2.jpg
+Blob created: public/assets/img/partner-3.jpg
+Blob created: public/assets/img/partner-4.jpg
+Blob created: public/assets/img/social-fb.jpg
+Blob created: public/assets/img/social-insta.jpg
+Blob created: public/assets/img/social-linkedin.jpg
